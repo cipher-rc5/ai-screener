@@ -1,0 +1,99 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.json
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directories
+coverage/
+*.lcov
+.nyc_output/
+
+# Build artifacts
+build/
+dist/
+.cache/
+.parcel-cache/
+.next/
+out/
+.nuxt/
+.docusaurus/
+.serverless/
+.fusebox/
+.dynamodb/
+.temp/
+
+# Dependencies
+node_modules/
+bower_components/
+jspm_packages/
+web_modules/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Package manager & cache files
+.npm/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Editor-specific files
+.vscode/
+.vscode-test/
+.idea/
+*.code-workspace
+
+# Linting cache
+.eslintcache
+.stylelintcache
+.prettierrc
+
+# Miscellaneous files
+.lock-wscript
+.tern-port
+*.tgz
+.eliza-starter.code-workspace
+.aider*
+.aider.chat.history.md
+.aider.tags.cache.v3
+
+# Environment & credentials
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.dev.vars
+.wrangler/
+.wrangler.toml
+.worker-configuration.d.ts
+
+# SQLite database files
+db.sqlite
+data/
+
+# Lockfiles
+pnpm-lock.yaml
+
+# Content & cache
+content_cache/
+notes.md
+
+# ✅ Explicitly include test-notes.md and dprint.json
+!test-notes.md
+!dprint.json
+!character-backup.txt
